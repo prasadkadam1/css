@@ -1,0 +1,131 @@
+.background {
+  background-color: blanchedalmond;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 600px;
+  height: 600px;
+  background-color: yellow;
+  border: 1px solid;
+  border-radius: 50%;
+  /* margin: auto; */
+}
+.eyes {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  /* border: 1px solid; */
+}
+.left-eye,
+.right-eye {
+  height: 160px;
+  width: 160px;
+  border: 1px solid;
+  border-radius: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.left-eye:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  transition-duration: 1s;
+}
+.right-eye:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  transition-duration: 1s;
+}
+.left-small-eye,
+.right-small-eye {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 100%;
+  background-color: black;
+}
+.left-small-eye:hover {
+}
+.right-small-eye:hover {
+  /* transition: 2s;
+    transform:rotate(360deg); */
+  /* transform:scale(0.5); */
+}
+.nose{
+  height: 100px;
+}
+.nose1 {
+  /* font-size: 100px; */
+  width: 0%;
+  height: 50px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid black;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nose1:hover{
+  transition-duration: 1s;
+
+  transform: scale(5);
+  border-bottom-color: red;
+}
+
+
+    
+
+img{
+    height: 150px;
+    margin-top: -50px;
+   
+}
+.mouth {
+  width: 600px;
+  height: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* border: 1px solid; */
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.lips {
+    width: 400px;
+    height: 70px;
+    background-color: antiquewhite;
+    border: 3px solid;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    /* border-top-left-radius: 100%;
+    border-top-right-radius: 100%; */
+    display: flex;
+    justify-content: center;
+   
+}
+.tongue {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(6, 128, 12);
+    /* border: 1px solid; */
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    /* margin-top: 20px; */
+
+}
+.tongue:hover{
+    display: none;
+    transform: scale(50px);
+}

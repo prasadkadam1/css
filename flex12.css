@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: coral; 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    flex-direction: row-reverse;
+    /* flex-wrap: wrap; */
+
+
+     
+    /* flex-wrap: wrap;   */
+}
+.first{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}
+.second{
+
+    
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}
+.third{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}
+.forth{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}
+.fifth{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}
+.sixth{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+}

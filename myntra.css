@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-navblock {
+  height: 75px;
+  box-shadow: 0px 2px 3px gray;
+  display: flex;
+}
+.main-navblock .logo {
+  height: 75px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-navblock .anchor {
+  height: 75px;
+  width: 37%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-navblock .search {
+  height: 75px;
+  width: 45%;
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-navblock .cart {
+  height: 35px;
+  width: 16%;
+  /* border: 2px solid; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.search .searchbar {
+  /* border: 2px solid; */
+  width: 370px;
+  display: flex;
+  height: 35px;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+}
+.search .searchbar:hover {
+  background-color: rgb(231, 231, 231);
+}
+.search .searchbar .searchicon {
+  height: 35px;
+  /* border: 2px solid; */
+  width: 70px;
+  font-size: x-large;
+  color: rgb(225, 220, 212);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search .searchbar .usersearch {
+  width: 530px;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search .searchbar .usersearch:focus {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+}
+
+.main-navblock .anchor .box .an {
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: small;
+}
+.main-navblock .anchor .box {
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+.main-navblock .anchor .box:hover {
+  border-bottom: 4px solid #ff3f6c;
+}
+
+.main-navblock .anchor .box .an #ans {
+  margin-top: -4px;
+}
+.main-navblock .anchor .box .an .n {
+  color: #ff3f6c;
+}
+
+.main-navblock .search {
+  height: 75px;
+  width: 35%;
+  /* border: 2px solid; */
+}
+
+.main-navblock .cart {
+  height: 75px;
+  width: 15%;
+  /* border: 2px solid; */
+}
+.cartbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.first-four{
+  display: flex;
+  margin-bottom: -3.5px;
+}
+.second-four{
+  display: flex;
+}
+.third-four{
+  display: flex;
+  margin-top: -3.5px;
+}
+
+.one{
+  width: 332.500px;
+  height: 131.609;
+}
+.two{
+  width: 332.500px;
+  height: 131.609;
+}
+.three{
+  width: 332.500px;
+  height: 131.609;
+}
+.omg-img{
+  width: 1330px;
+  height: 173.172px;
+}
+.scrolling-products{
+  display: flex;
+  
+}
+.product{
+  width: 221.672px;
+  height: 291.016px;
+}
+.scrolling-products1{
+  display: flex;
+  
+}
+.product1{
+  width: 221.672px;
+  height: 359.016px;
+}
+.scrolling-products2{
+  display: flex;
+  
+}
+.product2{
+  width: 221.672px;
+  height: 291.016px;
+}
+.scrolling-products3{
+  display: flex;
+  
+}
+.product3{
+  width: 266px;
+  height: 298.562px;
+}
+.omg-img1{
+  width: 1330px ;
+  height: 103.906px ;
+}
+footer{
+  background-color: #FAFBFC;
+  width: 100vw;
+  font-family: sans-serif;
+
+}
+.appstore-logo{
+  font-size: 50px;
+}
+.footer-list{
+  width: 100vw;
+}
+th, td{
+  padding-bottom: 10px;
+}
+footer{
+  margin-left: 20px;
+}
+.list1{
+  margin-left: 100px;
+}
+
+
+.category{
+  width: 221.672px;
+  height: 289.547px;
+}
+.category-container1{
+  display: flex;
+
+}
+.category-container2{
+  display: flex;
+  
+}
+.category-container3{
+  display: flex;
+}
+.category-container4{
+  display: flex;
+}
+.category-container5{
+  display: flex;
+}
+.category-container6{
+  display: flex;
+  justify-content: center;
+}
+.insta-logo{
+  width: 20px; 
+  height: 22px;
+}
+.parent-div{
+  width: 1080px;
+  height: 401px;
+}
+.secondary-parent1{
+  width: 180px;
+  /* border: 1px solid; */
+}
+.secondary-parent2{
+  width: 200px;
+  /* border: 1px solid; */
+}
+.secondary-parent3{
+  width: 450px;
+  /* border: 1px solid; */
+}
+.secondary-parent4{
+  width: 350kpx;
+  /* border: 1px solid; */
+}
+.parent-div{
+  display: flex;
+  justify-content: center;
+}

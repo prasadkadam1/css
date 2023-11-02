@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        section{
+            width:90%;
+            height: 600px;
+            background-color: antiquewhite;
+            border: 10px solid;
+            display: grid;
+            column-gap: 5px;
+            row-gap: 5px;
+            grid-template-columns: auto auto auto auto;
+
+            }
+            article{
+                background-color: darkgoldenrod;
+            }
+            .article5{
+                grid-column: 1/span3;
+                
+            }
+            </style>
+</head>
+<body>
+    
+    <section>
+        <article>article1</article>
+        <article>article2</article>
+        <article>article3</article>
+        <article>article4</article>
+        <article class="article5">article5</article>
+        <article>article6</article>
+        <article>article7</article>
+        <article>article8</article>
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.desktop{
+   display: none;
+}
+.laptop{
+    display: none;
+ }
+ .tab{
+    display: none;
+ }
+ .mobile{
+    display: none;
+ }
+@media screen and (min-width:700px) and (max-width:900px) {
+    .desktop{
+        display: block;
+        background-color: green;
+        color: beige;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:699px) {
+    .laptop{
+        display: block;
+        background-color: green;
+        color: beige;
+    }
+}
+    @media screen and (min-width:300px) and (max-width:399px) {
+        .tab{
+            display: block;
+            background-color: green;
+            color: beige;
+        }
+    }
+    @media screen and (min-width:200px) and (max-width:299px) {
+        .mobile{
+            display: block;
+            background-color: green;
+            color: beige;
+        }
+    }

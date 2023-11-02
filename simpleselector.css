@@ -1,0 +1,62 @@
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 70px;
+    background-color: black;
+    box-shadow: 10px 10px 10px;
+}
+.hotelname{
+    width: 380px;
+    height: 230px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color:gray; 
+    color: black;
+    box-sizing: border-box;
+    padding-left: 30px; 
+    margin-top: 10px;
+    
+    letter-spacing: 20px;
+    text-decoration: overline;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px;
+    /* border-top-left-radius: 50px ; */
+    border-bottom-right-radius: 50px; 
+    /* border-top-right-radius: 50px; */
+    border-bottom-left-radius: 50px;
+    font-size: 40px;
+
+}
+
+
+
+
+
+.about{
+    width: 380px;
+    height: 230px;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color:gray; 
+    color: black;
+    box-sizing: border-box;
+    /* padding-left: 30px;  */
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    letter-spacing: 20px;
+    /* text-decoration: overline; */
+    font-family: cursive;
+    text-shadow: 10px 10px 15px;
+    border-top-left-radius: 50px ;
+    /* border-bottom-right-radius: 50px;  */
+    border-top-right-radius: 50px;
+    /* border-bottom-left-radius: 50px; */
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0%;
+    font-weight: 1000;
+
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#050406;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram{
+    font-size: 120px;
+    width: 8%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color:  #3b3b3b;
+    
+    border-top: 5px solid #D2367D;
+    
+    
+}
+.whatspp{
+    font-size: 120px;
+    width: 8%;
+    margin-left: 50px;
+    margin-right: 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color:  #3b3b3b;
+    border-top: 5px solid #45CD69 ;
+
+
+}
+.twitter{
+    font-size: 120px;
+    width: 9%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color:  #3b3b3b;
+    border-top: 5px solid #3A79B0;
+}
+.instagram:hover{
+ animation-name: instagram;
+}
+/* .twitter::before {
+    content: "\f099";
+    color: #1DA1F2;
+    border-bottom: 4px solid #1DA1F2; */
+    div::before {
+        /* font-family: "FontAwesome";
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 6em;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s ease-in-out; */
+@keyframes instagram {
+    from{
+        border-top: 5px solid #D2367D;
+    }
+    to{
+        border-bottom: #D2367D;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(to top right,#ED8F39 ,#D2367D);
+    }
+  
+}
+

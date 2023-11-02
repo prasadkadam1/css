@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: fantasy;
+}
+.webtech {
+  width: 800px;
+  height: 600px;
+  /* border: 2px solid black; */
+  background-color: rgb(14, 14, 14);
+  box-shadow: 1px 1px 1px black;
+  margin: auto;
+  margin-top: 20px;
+}
+.html-css {
+  width: 800px;
+  height: 150px;
+  /* background-color: gray; */
+  /* border: solid purple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.first-pair {
+  display: flex;
+  align-items: center;
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.prasad {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.hemant {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.second-pair {
+  display: flex;
+  align-items: center;
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.adarsa {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
+.yogita {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.third-pair {
+  display: flex;
+  align-items: center;
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.maneesha {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
+.supraja {
+  width: 120px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.css-js {
+  width: 800px;
+  height: 150px;
+  /* background-color: gray; */
+  /* border: solid red;  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+
+.pair-one {
+  display: flex;
+  align-items: center;
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+
+.lavan {
+  width: 150px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
+.swarup {
+  width: 150px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
+.shreeraj {
+  width: 150px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.pair-two {
+  display: flex;
+  align-items: center;
+  /* border: solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.lavanya1 {
+  width: 150px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+  border-right: 1px solid black;
+}
+.lavanya2 {
+  width: 150px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.react {
+  width: 800px;
+  height: 150px;
+  /* background-color: gray; */
+  /* border: solid green;  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.ankita {
+  width: 190px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.chandana {
+  width: 190px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.kiran {
+  width: 190px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.rahul {
+  width: 190px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.other {
+  width: 800px;
+  height: 150px;
+  /* background-color: gray; */
+  /* border: solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px black;
+}
+.shreyansh {
+  width: 500px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.rohit {
+  width: 250px;
+  height: 140px;
+  background-color: gray;
+  /* border: solid black; */
+  box-shadow: 1px 1px 1px black;
+}
+.a {
+  width: 80px;
+  height: 80px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10px;
+}
+.name {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 300;
+}
+#a1 {
+  background-image: url(./assets/pokemon/screen-shot-2020-12-23-at-12-19-55-pm.webp);
+}
+#a2 {
+  background-image: url(./assets/pokemon/20130825150619382Kyogre-1.webp);
+}
+#a3 {
+  background-image: url(./assets/pokemon/20140928144641383Groudon.webp);
+}
+#a4 {
+  background-image: url(./assets/pokemon/20190405165040076Golem.webp);
+}
+#a5 {
+  background-image: url(./assets/pokemon/20190720220955644Zekrom.webp);
+}
+#a6 {
+  background-image: url(./assets/pokemon/20191217175504888Zacian-Hero.webp);
+}
+#a7 {
+  background-image: url(./assets/pokemon/248Tyranitar.webp);
+}
+#a8 {
+  background-image: url(./assets/pokemon/Dialga-Pokemon.avif);
+}
+#a9 {
+  background-image: url(./assets/pokemon/dialga.webp);
+}
+#a10 {
+  background-image: url(./assets/pokemon/Dracovish-Pokemon.avif);
+}
+#a11 {
+  background-image: url(./assets/pokemon/Dragapult-Pokemon.jpg);
+}
+#a12 {
+  background-image: url(./assets/pokemon/Eternatus-in-Pokemon.avif);
+}
+#a13 {
+  background-image: url(./assets/pokemon/Garchomp-in-the-Pokemon-anime.avif);
+}
+#a14 {
+  background-image: url(./assets/pokemon/Giratina-Origin-Forme-in-the-Pokemon-anime.jpg);
+}
+#a15 {
+  background-image: url(./assets/pokemon/giratina.webp);
+}
+#a16 {
+  background-image: url(./assets/pokemon/ho-oh.webp);
+}
+#a17 {
+  background-image: url(./assets/pokemon/Kyurem-Pokemon.avif);
+}

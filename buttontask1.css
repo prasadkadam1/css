@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1E1E1E; /* Dark Gray */
+}
+
+.container {
+    text-align: center;
+}
+
+.click-text {
+    font-size: 80px;
+    font-weight: 800;
+    color: #FFD700; /* Yellow */
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+
+.click-text:hover {
+    background-color: #525151; /* Light Gray */
+    border-radius: 25px;
+    text-shadow: -2px 2px #ff5e00;
+
+    top: -3px;
+    left: 10px;
+    /* animation: blink 0.8s infinite alternate; */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
